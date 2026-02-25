@@ -12,15 +12,20 @@ body {
 }
 
 /* Navbar */
-#navbar {
-  position: fixed;
-  top: 0;
+#navbar { 
+  position: fixed; 
+  top: 0; 
   width: 100%;
-  background: #1c1c1c;
-  padding: 15px 20px;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  background: #1c1c1c; 
+  padding: 15px 20px; 
+  z-index: 1000; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
+  transition: all 0.3s ease;
+} 
+#navbar.compacto {
+  padding: 5px 10px;
 }
+
 
 #navbar ul {
   display: flex;
@@ -28,13 +33,12 @@ body {
   list-style: none;
 }
 
-#navbar a {
-  color: #f0c040;
-  text-decoration: none;
-  margin: 0 20px;
-  font-weight: bold;
-  transition: color 0.3s;
-}
+#navbar a { 
+  color: #f0c040; 
+  text-decoration: none; 
+  margin: 0 15px;  
+  font-weight: bold; 
+  transition: color 0.3s; }
 
 #cv{
   border: 5px solid #f0c040;
